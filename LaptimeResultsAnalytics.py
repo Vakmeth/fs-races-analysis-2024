@@ -32,7 +32,8 @@ sns.boxenplot(
     x='City_University', 
     y='Lap_Time', 
     data=data_melted,
-    order=['Zürich ETH', 'Amberg OTH', 'Bern UAS', 'Aachen RWTH', 'Eindhoven TU',]
+    order=['Zürich ETH', 'Amberg OTH', 'Bern UAS', 'Aachen RWTH', 'Eindhoven TU',],
+    palette='viridis'
 )
 
 # Improve readability
